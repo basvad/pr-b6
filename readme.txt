@@ -1,8 +1,8 @@
-запуск сервера:
+Р·Р°РїСѓСЃРє СЃРµСЂРІРµСЂР°:
 bd_album_server.py
 
-тест строка для проверки get запроса:
+С‚РµСЃС‚ СЃС‚СЂРѕРєР° РґР»СЏ РїСЂРѕРІРµСЂРєРё get Р·Р°РїСЂРѕСЃР°:
 http://localhost:8080/albums/Beatles
 
-тест строка для проверки post запроса:
+С‚РµСЃС‚ СЃС‚СЂРѕРєР° РґР»СЏ РїСЂРѕРІРµСЂРєРё post Р·Р°РїСЂРѕСЃР°:
 http -f POST http://localhost:8080/albums artist="New Artist" genre="Rock" album="Super" year="2020"
